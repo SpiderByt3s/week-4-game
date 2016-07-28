@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "January Threed";
+    src: url("../spelunky/January Threed.ttf");
+}
+body {
+    background-image: url("../images/Spelunky.jpg");
+    background-size: 100% 100%;
+		height:800px;
+}
+h1 {
+    font-family: January Threed;
+    font-size: 50px;
+    left: 50%;
+    color: red;
+    display: inline;
+    width: 100%;
+}
+#wrapper {
+    text-align: center;
+    width: 100% max-width: 960px;
+    margin: 0 auto;
+}
+#instructions {
+    text-align: center;
+    color: white;
+    width: 50%;
+    margin: 0 auto;
+}
+#guessingNumber {
+    font-family: January Threed;
+    color: red;
+    text-align: center;
+}
+#scoreboard {
+    font-family: January Threed;
+    color: red;
+}
+#crystals {
+    margin-top: 15px;
+    margin-bottom: 26px;
+}
+.crystalImage {
+    height: 111px;
+    margin-left: 10px
+}
+
+#totalScore {
+    font-family: January Threed;
+    margin-bottom: 50px;
+}
+#yts {
+    font-family: January Threed;
+    color: red;
+    display: inline;
+    padding: 20px;
+}
